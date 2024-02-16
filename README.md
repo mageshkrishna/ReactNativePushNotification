@@ -1,7 +1,11 @@
 # ReactNativePushNotification
 Learn how to send and receive push notifications in your mobile apps using Node.js for server-side logic and React Native for client-side implementation.
 
-# Install all the packages required for the frontend (react native)
+# create an react native app with expo 
+
+ npx create-expo-app React_native_push_notification
+
+# Step 1 : Install all the packages required for the frontend (react native)
 
    >`npx expo install expo-notifications expo-device expo-constants`
 
@@ -9,7 +13,7 @@ Learn how to send and receive push notifications in your mobile apps using Node.
 
    >`npm install --global eas-cli`
 
-# Generate a expo project_id
+# Step 2 : Generate a expo project_id
 
    >First log into your account. If you dont have create One. Once you logged in click **Projects** in the side navbar. Now click **Create new project** then give a name for you project.
    
@@ -25,7 +29,7 @@ Learn how to send and receive push notifications in your mobile apps using Node.
 
       Type command : eas init --id 2aa0ef9b-c03e-4e7d-93e6-yourid
 	   
-# Add this code to app.js in React native
+# Step 3 : Add this code to app.js in React native
 ```import React, { useState, useEffect, useRef } from 'react';
 import { Text, View, Button, Platform, StyleSheet, StatusBar } from 'react-native';
 import * as Device from 'expo-device';
@@ -120,13 +124,13 @@ const styles = StyleSheet.create({
 
   >Type command : `npx expo start` to check whether the token is printed in the terminal and also copy it
 
-# Install the neccessary packages for Node server
+# Step 4 : Install the neccessary packages for Node server
 
  >Type command:`npm init`
 
  >Type command:`npm install body-parser express node-fetch`
 
-# create an index file and add this code.
+# Step 5 : create an index file and add this code.
 
 ```const express = require('express');
 const bodyParser = require('body-parser');
