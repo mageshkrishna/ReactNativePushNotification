@@ -19,11 +19,11 @@ Learn how to send and receive push notifications in your mobile apps using Node.
 	 
   >Now to go to you terminal of frontend 
    
-      Type command : `npx expo login`
+      Type command : npx expo login
 
    >Give your username and password in the terminal  after successfull login 
 
-      Type command : `eas init --id 2aa0ef9b-c03e-4e7d-93e6-yourid`
+      Type command : eas init --id 2aa0ef9b-c03e-4e7d-93e6-yourid
 	   
 # Add this code to app.js in React native
 ```import React, { useState, useEffect, useRef } from 'react';
