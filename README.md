@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
   },
 });
 ```
-# Hooray you successfully completed the ReactNative frontend
+# Hurray you successfully completed the ReactNative frontend
 
   >Type command : `npx expo start` to check whether the token is printed in the terminal and also copy it
 
@@ -183,7 +183,7 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 ```
-# Horray you also completed the Node backend now check it in the post man;
+# Hurray you also completed the Node backend now check it in the post man;
  >Postman : http://localhost:3000/send-push-notification
  >Go to body and choose raw then json
  ```
