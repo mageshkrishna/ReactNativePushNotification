@@ -30,7 +30,8 @@ Learn how to send and receive push notifications in your mobile apps using Node.
       Type command : eas init --id 2aa0ef9b-c03e-4e7d-93e6-yourid
 	   
 # Step 3 : Add this code to app.js in React native
-```import React, { useState, useEffect, useRef } from 'react';
+```
+import React, { useState, useEffect, useRef } from 'react';
 import { Text, View, Button, Platform, StyleSheet, StatusBar } from 'react-native';
 import * as Device from 'expo-device';
 import * as Notifications from 'expo-notifications';
