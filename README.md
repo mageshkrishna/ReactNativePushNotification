@@ -133,7 +133,8 @@ const styles = StyleSheet.create({
 
 # Step 5 : create an index file and add this code.
 
-```const express = require('express');
+```
+const express = require('express');
 const bodyParser = require('body-parser');
 
 const app = express();
